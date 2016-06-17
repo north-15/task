@@ -88,9 +88,40 @@ footer{
 }
 
 @media screen  and (min-width: 1024px){
-  #contents{
-    background-color: blue;
+  html {
+    /*background: url(12_col.jpg) repeat-y top center;*/
   }
+  #contents{
+    width: 93.75%; /* 全体1024px分の960pxの割合 */
+    overflow: hidden;
+  }
+
+  #contents #main, #contents #sub{
+    float: left;
+    margin: 0 1.0416667%; /* 10/960px */
+  }
+
+  #contents #main{
+    width: 64.5833333%; /* 620/960px */
+  }
+
+  #contents #sub{
+    width: 31.25%; /* 300/960 */
+  }
+
+  nav ul {
+    width: 93.75%;
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 93.75%
+    padding: 24px 0;
+    margin: 0 auto;
+  }
+
+
+
 }
 
 
