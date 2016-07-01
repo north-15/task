@@ -21,8 +21,7 @@
         </div>
         <div>
           <label for="contetns">内容
-            <textarea name="contents" id="" cols="50" rows="10">
-            </textarea>
+            <textarea name="contents" id="" cols="50" rows="10"></textarea>
           </label>
         </div>
         <div>

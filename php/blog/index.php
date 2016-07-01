@@ -9,6 +9,10 @@
   $offset = $_GET['offset'];
   }
 
+  $st_count = $db->query("select count(*) as count from posts");
+  $row = $st_count->fetch();
+  $count = $row['count'];
+
   $stmt = $db->query("select * from posts order by updated desc limit ${limit} offset ${offset}");
 
   // 'order by [カラム名] asc' で昇順に並び替え
@@ -42,9 +46,14 @@
 
     <div class="pager">
       <?php if($offset > 0) : ?>
-        <a href="/blog/?offset=<?php echo $prev_offset; ?>" title=""> < </a>
+        <a href="?offset=<?php echo $prev_offset; ?>" title=""> ＜ </a>
       <?php endif; ?>
-        <a href="/blog/?offset=<?php echo $next_offset; ?>" title=""> > </a>
+      <?php if ($offset + $limit < $count) : ?>
+        <a href="?offset=<?php echo $next_offset; ?>" title=""> ＞ </a>
+      <?php endif; ?>
+
+
+      <p>総件数: <?php echo $count; ?></p>
     </div>
 
     <div id="articles">
@@ -55,6 +64,7 @@
           <a href="show.php?id=<?php echo $id; ?>" title="">
             <?php echo($row['id'].''.$row['title']); ?>
           </a>
+          <a href="edit.php?id=<?php echo $id; ?>" title="">編集</a>
           <a href="delete.php?id=<?php echo $id; ?>" class="delete">削除</a>
         </article>
       <?php } ?>
