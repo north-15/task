@@ -37,7 +37,16 @@
       <h2><?php echo $post['title']; ?></h2>
       <p class="date"><?php echo $post['created'] ?></p>
       <p class="date"><?php echo $post['updated'] ?></p>
-      <p><?php echo $post['contents'] ?></p>
+      <pre><?php echo $post['contents'] ?></pre>
+
+      <?php if(!empty($post['image_name'])) { ?>
+      <div class="image">
+        <img src="image.php?id=<?php echo $id; ?>" alt="">
+      </div>
+      <?php } ?>
+
+
+
       <?php } ?>
     </article>
 

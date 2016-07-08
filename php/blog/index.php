@@ -1,19 +1,9 @@
 <?php require 'utils.php'; ?>
 <?php
   $limit = 5;
-  $offset = 0;
-  if (isset($_GET['limit']) and !empty($_GET['limit'])) {
-    $limit = $_GET['limit'];
-  }
-  if (isset($_GET['offset']) and !empty($_GET['offset'])) {
-  $offset = $_GET['offset'];
-  }
-
-  $st_count = $db->query("select count(*) as count from posts");
-  $row = $st_count->fetch();
-  $count = $row['count'];
-
-  $stmt = $db->query("select * from posts order by updated desc limit ${limit} offset ${offset}");
+  $offset = get_offset();
+  $count = get_posts_count();
+  $stmt = get_db()->query("select * from posts order by updated desc limit ${limit} offset ${offset}");
 
   // 'order by [カラム名] asc' で昇順に並び替え
 
@@ -41,30 +31,30 @@
     <div id="photo">
       <img src="images/cebu.jpg" alt="">
     </div>
-
-    <a href="new.php" title="">新規記事作成</a>
-
+    <div class="new">
+      <a href="new.php" title="">新規記事作成</a>
+    </div>
     <div class="pager">
       <?php if($offset > 0) : ?>
-        <a href="?offset=<?php echo $prev_offset; ?>" title=""> ＜ </a>
+        <a href="?offset=<?php echo get_prev_offset($limit); ?>" title=""> ＜ </a>
       <?php endif; ?>
       <?php if ($offset + $limit < $count) : ?>
-        <a href="?offset=<?php echo $next_offset; ?>" title=""> ＞ </a>
+        <a href="?offset=<?php echo get_next_offset($limit); ?>" title=""> ＞ </a>
       <?php endif; ?>
-
-
-      <p>総件数: <?php echo $count; ?></p>
     </div>
 
     <div id="articles">
       <p id="article-top">記事一覧</p>
+      <div>
+        <p>総件数: <?php echo $count; ?></p>
+      </div>
       <?php foreach($stmt as $row) {?>
         <?php $id = $row['id']; ?>
         <article>
           <a href="show.php?id=<?php echo $id; ?>" title="">
-            <?php echo($row['id'].''.$row['title']); ?>
+            <?php echo($row['id'].'  '.$row['title']); ?>
           </a>
-          <a href="edit.php?id=<?php echo $id; ?>" title="">編集</a>
+          <a href="edit.php?id=<?php echo $id; ?>" title="" class="edit">編集</a>
           <a href="delete.php?id=<?php echo $id; ?>" class="delete">削除</a>
         </article>
       <?php } ?>

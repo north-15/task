@@ -28,7 +28,7 @@ h2{
   /*background-color: #fff9f4;*/
 }
 
-#contents p{
+#contents pre, p{
   font-size: 20px;
   text-align: center;
 }
@@ -39,9 +39,17 @@ h2{
 }
 
 
-
 #photo img{
   width: 100%;
+}
+
+.new, .pager{
+  padding-left: 30px;
+}
+
+#article-top{
+  color: #101010;
+  font-size: 22px;
 }
 
 article{
@@ -71,7 +79,15 @@ footer{
   font-size: 13px;
 }
 
+.title{
+  margin-left: 15px;
+}
+
 .delete{
+  margin-left: 15px;
+}
+
+.edit{
   margin-left: 15px;
 }
 
@@ -79,4 +95,45 @@ footer{
   width: 64.5833333%;
   margin: 0 auto;
   text-align: center;
+}
+
+/* new */
+form{
+  background-color: #D8EFF2;
+}
+
+.title{
+  padding-top: 20px;
+}
+
+.content{
+  padding: 20px;
+}
+
+textarea{
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #fff;
+  border: 1px solid #777;
+}
+
+.button{
+  padding-bottom: 20px;
+}
+
+.submit{
+  margin-top: 15px;
+  border:1px solid #777;
+  padding: 4px 10px;
+  color: #fff;
+  cursor: pointer;
+  background: #428ec9;
+  border-radius: 5px;
+}
+
+.image{
+  text-align: center;
+}
+
+.image img{
+  max-width: 90%;
 }

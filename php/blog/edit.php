@@ -1,19 +1,14 @@
 <?php require 'utils.php' ?>
 <?php
-  if (!isset($_GET['id']) or empty($_GET['id'])){
-    $error = "Idを指定してください";
-  } else {
-    $id = $_GET['id'];
-    $st = $db->query("select * from posts where id = ${id}");
-    foreach($st as $row){
-      $post = $row;
-    }
-  }
-  if (isset($error)) {
+  if (is_empty($_GET, 'id')){
+    $error = "IDを指定してください";
     $page_title = "エラーです！！！";
   } else {
+    $id = $_GET['id'];
+    $post = get_post($id);
     $page_title = "編集";
   }
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -34,13 +29,13 @@
       <?php elseif(!isset($post)): ?>
         <p>指定した記事が存在しません</p>
       <?php else : ?>
-        <form action="post.php" method="post" name="form" accept-charset="utf-8">
-          <div>
+        <form action="post.php" method="post" name="form" accept-charset="utf-8" enctype="multipart/form-data">
+          <div class="title">
             <label for="title">タイトル
               <input type="text" name="title" value="<?php echo $post['title']; ?>">
             </label>
           </div>
-          <div>
+          <div class="content">
             <label for="contetns">内容
               <textarea name="contents" id="" cols="50" rows="10"><?php echo $post['contents']; ?></textarea>
             </label>
@@ -48,6 +43,15 @@
           <div>
             <input type="hidden" name="type" value="edit">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
+            <div class="image">
+              <img src="image.php?id=<?php echo $id; ?>" alt="">
+            </div>
+            <div>
+              <label for="image">
+                画像
+                <input type="file" name="image">
+              </label>
+            </div>
             <input type="submit" name="送信">
           </div>
         </form>

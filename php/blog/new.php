@@ -13,19 +13,25 @@
 
   <div id="contents">
     <article id="submit">
-      <form action="post.php" method="post" name="form" accept-charset="utf-8">
-        <div>
+      <form action="post.php" method="post" name="form" accept-charset="utf-8" enctype="multipart/form-data">
+        <div class="title">
           <label for="title">タイトル
             <input type="text" name="title">
           </label>
         </div>
-        <div>
+        <div class="content">
           <label for="contetns">内容
-            <textarea name="contents" id="" cols="50" rows="10"></textarea>
+            <textarea name="contents" id="" cols="60" rows="40"></textarea>
           </label>
         </div>
         <div>
-          <input type="submit" name="送信">
+          <label for="image">
+            画像
+            <input type="file" name="image">
+          </label>
+        </div>
+        <div class="button">
+          <input type="submit" name="送信" class="submit">
         </div>
       </form>
     </article>
