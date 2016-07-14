@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smartr\n"
+"POT-Creation-Date: 2016-04-12 06:03-0700\n"
+"PO-Revision-Date: 2016-04-12 06:03-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "This Page Could Not Be Found!"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"The page you are looking for might have been removed, had its name "
+"changed<br /> or is temporarily unavailable."
+msgstr ""
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/customizer-library.php:98
+msgid "Panel Examples"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/customizer-library.php:106
+msgid "Panel Section"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/customizer-library.php:113
+msgid "Example Text Input"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:18
+msgid "Standard Fonts"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:20
+msgid "Google Fonts"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:125
+msgid "All"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:126
+msgid "Cyrillic"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:127
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:128
+msgid "Devanagari"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:129
+msgid "Greek"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:130
+msgid "Greek Extended"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:131
+msgid "Khmer"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:132
+msgid "Latin"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:133
+msgid "Latin Extended"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:134
+msgid "Vietnamese"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:194
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:198
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-library/extensions/fonts.php:202
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:33
+msgid "Colors Navbar & Typography"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:41
+msgid "Primary Font"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:50
+msgid "Header Font"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:60
+msgid "Body Text Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:68
+msgid "Links Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:76
+msgid "Links Hover and Focus Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:84
+msgid "Navbar Top/Bottom"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:85
+msgid "Top / bottom padding: Min is 15px, max is 55px, step is 2px"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:98
+msgid "Navbar Brand Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:106
+msgid "Navbar Bg Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:114
+msgid "Navbar Menu Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:122
+msgid "Navbar Menu Active Item Bg"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:130
+msgid "Navbar Menu Active Item Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:138
+msgid "Navbar Menu Dropdown Bg Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:146
+msgid "Navbar Menu Dropdown Items Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:157
+msgid "General Settings"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:163
+msgid "Logo"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:170
+msgid "Favicon"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:178
+msgid "Show site description in the navbar"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:189
+msgid "Homepage Sections"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:197
+msgid "Image Boxes Section"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:204
+msgid "Iconboxes Section Header"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:216
+msgid "Image Box 1 Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:224
+msgid "Imagebox #1 Animation Border Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:232
+msgid "Imagebox #1 Title"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:235
+#: LNT-framework/smartr-home-blocks.php:31
+msgid "Smart Builder"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:240
+msgid "Imagebox #1 Content"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:243
+#: LNT-framework/customizer/customizer-options.php:710
+#: LNT-framework/smartr-content.php:104 LNT-framework/smartr-home-blocks.php:32
+msgid ""
+"Want more elements, drag and drop page builder, etc? purchase Smartr Plus"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:252
+msgid "Image Box 2 Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:260
+msgid "Imagebox #2 Animation Border Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:268
+msgid "Imagebox #2 Title"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:271
+#: LNT-framework/smartr-home-blocks.php:39
+msgid "Demo Content"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:276
+msgid "Imagebox #2 Content"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:280
+#: LNT-framework/smartr-home-blocks.php:40
+msgid ""
+"With 1 Click demo content installer your site will look exactly like in our "
+"demos"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:289
+msgid "Image Box 3 Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:297
+msgid "Imagebox #3 Animation Border Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:305
+msgid "Imagebox #3 Title"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:308
+#: LNT-framework/smartr-home-blocks.php:47
+msgid "Fuly Responsive"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:313
+msgid "Imagebox #3 Content"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:316
+#: LNT-framework/smartr-home-blocks.php:48
+msgid ""
+"All our themes are fully responsive. Resize your browser to see for yourself!"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:325
+msgid "Image Box 4 Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:333
+msgid "Imagebox #4 Animation Border Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:341
+msgid "Imagebox #4 Title"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:344
+#: LNT-framework/smartr-home-blocks.php:55
+msgid "Dedicated Support"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:349
+msgid "Imagebox #4 Content"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:352
+#: LNT-framework/smartr-home-blocks.php:56
+msgid ""
+"Our support team members will help you to resolve any issue with the theme"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:363
+msgid "Cta Section"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:370
+msgid "Show cta section"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:378
+msgid "Background Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:386
+msgid "Cta Section Header"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:394
+msgid "Cta Section Text"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:411
+msgid "Cta Button Style"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:420
+msgid "Btn Text"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:428
+msgid "Btn Link"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:439
+msgid "Blog Section"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:446
+msgid "Show Blog section"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:455
+msgid "Blog Section Header"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:462
+msgid "Blog Section Sub Header"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:471
+msgid "Layout Settings"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:477
+msgid "Show Image/video/audio/Gallery n featured media section in single pages"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:490
+msgid "Home Blog Entries"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:504
+msgid "Single Post Pages Layout"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:513
+msgid "Default Pages Layout"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:522
+msgid "Archives Pages Layout"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:531
+msgid "Search Pages Layout"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:545
+#: LNT-framework/customizer/customizer-options.php:553
+msgid "Homepage Slider"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:573
+msgid "Full Screen"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:574
+msgid "Alternative"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:579
+msgid "Slider Type"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:587
+msgid "Slider content source. (for Alternative slider type only)"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:597
+msgid "Slides Mask Color"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:605
+msgid "Slide Mask Opacity"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:618
+msgid "Slider Speed"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:632
+msgid "Show Default Homepage Slider "
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:640
+msgid "Show default homepage slider on page set as the blog page "
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:649
+msgid "Slide1 Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:657
+msgid "Slide1 Main Caption"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:660
+msgid "We are Smartr Theme"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:664
+msgid "Slide1 Sub Caption"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:667
+#: LNT-framework/smartr-content.php:90 LNT-framework/smartr-content.php:211
+msgid "We make beautiful things happen"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:671
+msgid "Slide1 Btn URL"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:677
+msgid "Slider 1 Button Style"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:685
+msgid "Slide1 Btn Text"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:688
+#: LNT-framework/customizer/customizer-options.php:731
+msgid "Learn More"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:693
+msgid "Slide2 Image"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:700
+msgid "Slide2 Main Caption"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:703
+#: LNT-framework/smartr-content.php:103 LNT-framework/smartr-content.php:227
+msgid "Unleash your full potential"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:707
+msgid "Slide2 Sub Caption"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:714
+msgid "Slide2 Btn URL"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:720
+msgid "Slider 2 Button Style"
+msgstr ""
+
+#: LNT-framework/customizer/customizer-options.php:728
+msgid "Slide2 Btn Text"
+msgstr ""
+
+#: LNT-framework/smartr-access.php:52
+msgid "Set up Your Menu"
+msgstr ""
+
+#: LNT-framework/smartr-attributes.php:184
+#, php-format
+msgctxt "sidebar aria label"
+msgid "%s Sidebar"
+msgstr ""
+
+#: LNT-framework/smartr-attributes.php:217
+#, php-format
+msgctxt "nav menu aria label"
+msgid "%s Menu"
+msgstr ""
+
+#: LNT-framework/smartr-attributes.php:435
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: LNT-framework/smartr-attributes.php:560
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:89
+msgid "Wellcome to Smartr"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:91 LNT-framework/smartr-content.php:105
+msgid "Get Started"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:183 LNT-framework/smartr-content.php:353
+msgid "Read More"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:210
+msgid "We are smartr Theme"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:228
+msgid ""
+"Want more elements, drag and drop page builder, etc? purchase Smartr Plus "
+msgstr ""
+
+#: LNT-framework/smartr-content.php:306
+#: LNT-framework/smartr-home-blocks.php:183
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:318
+#: LNT-framework/smartr-template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:318
+#: LNT-framework/smartr-template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:318
+#: LNT-framework/smartr-template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: LNT-framework/smartr-content.php:359
+msgid "Featured"
+msgstr ""
+
+#: LNT-framework/smartr-footer.php:70
+msgid "WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+#: LNT-framework/smartr-footer.php:72
+msgid "Level9themes"
+msgstr ""
+
+#: LNT-framework/smartr-footer.php:74
+#, php-format
+msgid "&copy; %1$s %2$s."
+msgstr ""
+
+#: LNT-framework/smartr-footer.php:74
+#, php-format
+msgid "Powered by %s."
+msgstr ""
+
+#: LNT-framework/smartr-footer.php:74
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: LNT-framework/smartr-home-blocks.php:22
+msgid "Smartr. Where Creativity Meets Class"
+msgstr ""
+
+#: LNT-framework/smartr-home-blocks.php:96
+msgid "Call to action main header"
+msgstr ""
+
+#: LNT-framework/smartr-home-blocks.php:97
+msgid ""
+"Just some placeholder text explaining what this call to action section is "
+"really about. Nulla dictum mauris ac nunc quislos pharetra cursus in non "
+"consequat"
+msgstr ""
+
+#: LNT-framework/smartr-home-blocks.php:98
+msgid "Join us today!"
+msgstr ""
+
+#: LNT-framework/smartr-home-blocks.php:141
+#: LNT-framework/smartr-home-blocks.php:144
+msgid "Latest News From Our Blog"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:12
+msgctxt "Next post"
+msgid "Next"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:13
+msgctxt "Previous post"
+msgid "Previous"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:29
+msgid "<i class=\"glyphicon glyphicon-chevron-left\"></i>"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:30
+msgid "<i class=\"glyphicon glyphicon-chevron-right\"></i>"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:75
+msgid "First"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:78
+msgid "previous"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:93
+msgid "next"
+msgstr ""
+
+#: LNT-framework/smartr-pagination.php:97
+msgid "Last"
+msgstr ""
+
+#: LNT-framework/smartr-template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: LNT-framework/smartr-template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: LNT-framework/smartr-template-tags.php:50
+#: LNT-framework/smartr-template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: LNT-framework/smartr-template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: LNT-framework/smartr-template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: LNT-framework/smartr-template-tags.php:71 partials/entry-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: LNT-framework/smartr-utility.php:134
+msgid "(Untitled)"
+msgstr ""
+
+#: LNT-framework/smartr-widget-areas.php:11
+msgid "Primary"
+msgstr ""
+
+#: LNT-framework/smartr-widget-areas.php:21
+msgid "Footer Left"
+msgstr ""
+
+#: LNT-framework/smartr-widget-areas.php:31
+msgid "Footer Middle"
+msgstr ""
+
+#: LNT-framework/smartr-widget-areas.php:40
+msgid "Footer Right"
+msgstr ""
+
+#: LNT-framework/woocommerce/template-tags.php:24
+msgid "View your shopping cart"
+msgstr ""
+
+#: LNT-framework/woocommerce/template-tags.php:25
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: archive.php:41 author.php:49 index.php:42
+msgid "&larr;"
+msgstr ""
+
+#: archive.php:42 author.php:50 index.php:43
+msgid "&rarr;"
+msgstr ""
+
+#: archive.php:43 author.php:51 index.php:44 partials/entry.php:21
+msgid "Page"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:24
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:25
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:81 partials/entry-page.php:21 partials/entry.php:17
+msgid "Pages:"
+msgstr ""
+
+#: image.php:91
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a>"
+msgstr ""
+
+#: image.php:102
+msgid "Edit"
+msgstr ""
+
+#: partials/entry-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/entry-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: partials/entry-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: partials/entry-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: partials/entry.php:53
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Smartr"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://level9themes.com/smartr"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Smartr is a sleek and modern Wordpress theme that provides an instant "
+"proffesional look to your online prescence. It's perfect for an agency, "
+"business, corporate or personal websites. The theme is built on bootstrap, "
+"is responsive and is highly extensible. You can rapidly create a beautiful "
+"and engaging front page with our pre-made homepage sections. Smartr provides "
+"plenty of customization possibilities like access to all Google Fonts, color "
+"control, navbar designer, layout control, logo and favicon upload, image "
+"slider, on scroll sticky navigation and much more. The theme is compatible "
+"with major WordPress plugins like WooCommerce, JetPack and many others."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://level9themes.com"
+msgstr ""
