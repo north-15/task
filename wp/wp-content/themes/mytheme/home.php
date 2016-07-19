@@ -12,12 +12,22 @@
         <div id="articles">
           <?php the_post(); ?>
           <?php the_post_thumbnail(); ?>
-          <p><?php echo get_the_date(); ?></p>
-          <a href="<?php the_permalink(); ?>">
-            <?php the_title(); ?>
-          </a>
-          <!-- <p><?php the_category(); ?></p> -->
-          <p><?php the_tags(); ?></p>
+          <div id="icons">
+            <div id="date-wrap">
+              <span class="calender"><i class="fa fa-calendar-o" aria-hidden="true"></i></span>
+              <p class="date"><?php echo get_the_date(); ?></p>
+            </div>
+            <div id="category-wrap">
+              <span class="category-icon"><i class="fa fa-tags" aria-hidden="true"></i></span>
+              <p class="category"><?php the_category(' '); ?></p>
+            </div>
+          </div>
+          <div class="title">
+            <a href="<?php the_permalink(); ?>">
+              <?php the_title(); ?>
+            </a>
+          </div>
+          <!-- <p><?php the_tags(); ?></p><i class="fa fa-tags" aria-hidden="true"></i> -->
           <!-- <p><?php the_content(); ?></p> -->
         </div>
       <?php endwhile; ?>

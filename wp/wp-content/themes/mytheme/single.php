@@ -9,7 +9,7 @@
     <h1><?php echo $post->post_title; ?></h1>
     <!-- <p><?php echo $post->post_modified; ?></p> -->
     <pre><?php echo $post->post_content; ?></pre>
-    <p class="date"><?php echo $post->post_date; ?></p>
+    <p class="single-date"><?php echo $post->post_date; ?></p>
   </article>
 </div>
 
